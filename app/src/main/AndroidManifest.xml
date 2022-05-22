@@ -24,6 +24,9 @@
         <activity android:name=".probability_tagnote_3"></activity>
         <activity android:name=".probability_tagnote_1"></activity>
 
+        <activity android:name=".search_00"></activity>
+        <activity android:name=".search_01_pointer"></activity>
+
     </application>
 
 </manifest>
