@@ -14,7 +14,7 @@ public class search_00 extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.search_00);
 
-        Button search_Button = (Button) findViewById(R.id.search_Button);
+        Button search_Button = (Button) findViewById(R.id.search_00_search);
         search_Button.setOnClickListener(new View.OnClickListener() {
 
             @Override
