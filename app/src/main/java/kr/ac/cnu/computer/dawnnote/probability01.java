@@ -5,12 +5,12 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class probability02 extends AppCompatActivity {
+public class probability01 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_probability02);
+        setContentView(R.layout.activity_probability01);
 
         ImageButton back = findViewById(R.id.back_button);
 
