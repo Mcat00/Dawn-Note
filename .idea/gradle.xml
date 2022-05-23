@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-<<<<<<< HEAD
-=======
-        <option name="testRunner" value="GRADLE" />
->>>>>>> ac90f2c4bbe025bc4f89118beb4b281a9a9d7fa9
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
-<<<<<<< HEAD
-=======
-        <option name="resolveModulePerSourceSet" value="false" />
->>>>>>> ac90f2c4bbe025bc4f89118beb4b281a9a9d7fa9
       </GradleProjectSettings>
     </option>
   </component>
