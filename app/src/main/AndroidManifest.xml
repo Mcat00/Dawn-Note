@@ -1,38 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="kr.ac.cnu.computer.dawnnote">
+    package="kr.ac.cnu.computer.dawnnote" >
 
     <application
-            android:allowBackup="true"
-            android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
-            android:roundIcon="@mipmap/ic_launcher_round"
-            android:supportsRtl="true"
-            android:theme="@style/Theme.DawnNote">
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DawnNote" >
         <activity
-                android:name=".new_note"
-                android:exported="true"/>
-        <activity android:name=".MainActivity">
+            android:name=".data_structure06"
+            android:exported="true" />
+        <activity
+            android:name=".data_structure05"
+            android:exported="true" />
+        <activity
+            android:name=".data_structure04"
+            android:exported="true" />
+        <activity
+            android:name=".data_structure03"
+            android:exported="true" />
+        <activity
+            android:name=".data_structure02"
+            android:exported="true" />
+        <activity
+            android:name=".data_structure01"
+            android:exported="true" />
+        <activity
+            android:name=".new_note"
+            android:exported="true" />
+        <activity android:name=".MainActivity" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".probability_tagnote_2"/>
-        <activity android:name=".probability_tagnote_3"/>
-        <activity android:name=".probability_tagnote_1"/>
+        <activity android:name=".probability_tagnote_2" />
+        <activity android:name=".probability_tagnote_3" />
+        <activity android:name=".probability_tagnote_1" />
         <activity
-                android:name=".probability03"
-                android:exported="true"/>
+            android:name=".probability03"
+            android:exported="true" />
         <activity
-                android:name=".probability02"
-                android:exported="true"/>
+            android:name=".probability02"
+            android:exported="true" />
         <activity
-                android:name=".probability01"
-                android:exported="true"/>
-        <activity android:name=".search_00"/>
-        <activity android:name=".search_01_pointer"/>
+            android:name=".probability01"
+            android:exported="true" />
+        <activity android:name=".search_00" />
+        <activity android:name=".search_01_pointer" />
     </application>
 
 </manifest>
