@@ -13,7 +13,7 @@
             android:fontFamily="@font/javatext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView1"
-            android:textSize="40sp"
+            android:textSize="38sp"
             android:layout_gravity="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -23,7 +23,7 @@
             android:layout_marginLeft="20dp" android:layout_marginStart="20dp"/>
     <TextView
             android:text="@string/Statistics"
-            android:fontFamily="@font/jejugothic"
+            android:fontFamily="@font/korean"
             android:layout_gravity="center"
             android:textColor="#FFFFFF"
             android:layout_width="wrap_content"
@@ -34,7 +34,7 @@
     />
     <TextView
             android:text="@string/CLanguage"
-            android:fontFamily="@font/jejugothic"
+            android:fontFamily="@font/korean"
             android:layout_gravity="center"
             android:textColor="#FFFFFF"
             android:layout_width="wrap_content"
@@ -43,13 +43,14 @@
             app:layout_constraintStart_toStartOf="@+id/imageView4" app:layout_constraintEnd_toEndOf="@+id/imageView4"/>
     <TextView
             android:text="@string/DataStructure"
-            android:fontFamily="@font/jejugothic"
+            android:fontFamily="@font/korean"
             android:layout_gravity="center"
             android:textColor="#FFFFFF"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/name3"
             app:layout_constraintTop_toBottomOf="@+id/imageView5"
             app:layout_constraintStart_toStartOf="@+id/imageView5" app:layout_constraintEnd_toEndOf="@+id/imageView5"/>
+
     <ImageView
             android:layout_width="50dp"
             android:layout_height="49dp"
@@ -59,17 +60,16 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.23"
-            app:layout_constraintVertical_bias="0.01999998"/>
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.225"
+            app:layout_constraintVertical_bias="0.032"/>
     <ImageView
             android:layout_width="45dp"
             android:layout_height="45dp" app:srcCompat="@drawable/detective" android:id="@+id/imageView2"
             app:layout_constraintStart_toStartOf="parent"
             android:layout_gravity="center"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.934"
-            app:layout_constraintVertical_bias="0.01999998"/>
-
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintHorizontal_bias="0.933"
+            app:layout_constraintVertical_bias="0.037"/>
     <ImageView
             android:layout_width="150dp"
             android:layout_height="150dp"
@@ -118,13 +118,6 @@
 
         />
     </LinearLayout>
-    <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp" app:srcCompat="@drawable/smallfolder" android:id="@+id/imageView6"
-            android:layout_weight="1"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintHorizontal_bias="0.35" app:layout_constraintVertical_bias="0.18"/>
     <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -136,12 +129,20 @@
             app:layout_constraintHorizontal_bias="0.932" app:layout_constraintVertical_bias="0.93"/>
     <TextView
             android:text=".../ 중간고사"
-            android:fontFamily="@font/jejugothic" android:layout_width="wrap_content"
+            android:fontFamily="@font/korean" android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView6"
             app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
             android:textColorLink="#FFFFFF"
-            android:textColor="#FFFFFF" app:layout_constraintVertical_bias="0.18" android:textSize="16sp"/>
+            android:textColor="#FFFFFF" app:layout_constraintVertical_bias="0.193" android:textSize="16sp"
+            app:layout_constraintHorizontal_bias="0.499"/>
+    <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp" app:srcCompat="@drawable/smallfolder" android:id="@+id/imageView6"
+            android:layout_weight="1"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.348" app:layout_constraintVertical_bias="0.187"/>
     <TextView
             android:text="Note"
             android:fontFamily="@font/javatext"
