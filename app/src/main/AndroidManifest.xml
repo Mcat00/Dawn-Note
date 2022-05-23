@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="kr.ac.cnu.computer.dawnnote">
+    package="kr.ac.cnu.computer.dawnnote" >
 
     <application
             android:allowBackup="true"
@@ -11,9 +11,9 @@
             android:theme="@style/Theme.DawnNote">
         <activity android:name=".Main">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".folderlist"/>
@@ -26,7 +26,6 @@
         <activity android:name=".probability01"/>
         <activity android:name=".search_00"/>
         <activity android:name=".search_01_pointer"/>
-
     </application>
 
 </manifest>
