@@ -9,6 +9,12 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.DawnNote">
+<<<<<<< HEAD
+=======
+        <activity
+                android:name=".new_note"
+                android:exported="true"/>
+>>>>>>> ac90f2c4bbe025bc4f89118beb4b281a9a9d7fa9
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -16,6 +22,23 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+<<<<<<< HEAD
+=======
+        <activity android:name=".probability_tagnote_2"/>
+        <activity android:name=".probability_tagnote_3"/>
+        <activity android:name=".probability_tagnote_1"/>
+        <activity
+                android:name=".probability03"
+                android:exported="true"/>
+        <activity
+                android:name=".probability02"
+                android:exported="true"/>
+        <activity
+                android:name=".probability01"
+                android:exported="true"/>
+        <activity android:name=".search_00"/>
+        <activity android:name=".search_01_pointer"/>
+>>>>>>> ac90f2c4bbe025bc4f89118beb4b281a9a9d7fa9
     </application>
 
 </manifest>
