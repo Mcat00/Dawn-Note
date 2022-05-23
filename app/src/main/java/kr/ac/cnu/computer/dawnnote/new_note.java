@@ -10,7 +10,7 @@ public class new_note extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_new_note);
+        setContentView(R.layout.new_note);
 
         ImageButton back = findViewById(R.id.back_button);
 

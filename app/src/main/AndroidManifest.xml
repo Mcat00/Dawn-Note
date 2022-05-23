@@ -5,34 +5,28 @@
     <application
             android:allowBackup="true"
             android:icon="@mipmap/ic_launcher"
-            android:label="@string/app_name"
+            android:label="@string/DawnNote"
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.DawnNote">
-        <activity
-                android:name=".new_note"
-                android:exported="true"/>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".folderlist"/>
+        <activity android:name=".new_note"/>
         <activity android:name=".probability_tagnote_2"/>
         <activity android:name=".probability_tagnote_3"/>
         <activity android:name=".probability_tagnote_1"/>
-        <activity
-                android:name=".probability03"
-                android:exported="true"/>
-        <activity
-                android:name=".probability02"
-                android:exported="true"/>
-        <activity
-                android:name=".probability01"
-                android:exported="true"/>
+        <activity android:name=".probability03"/>
+        <activity android:name=".probability02"/>
+        <activity android:name=".probability01"/>
         <activity android:name=".search_00"/>
         <activity android:name=".search_01_pointer"/>
+
     </application>
 
 </manifest>

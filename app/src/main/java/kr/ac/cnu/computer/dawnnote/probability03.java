@@ -10,7 +10,7 @@ public class probability03 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_probability03);
+        setContentView(R.layout.probability03);
 
         ImageButton back = findViewById(R.id.back_button);
 

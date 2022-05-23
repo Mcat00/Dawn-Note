@@ -1,10 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-<<<<<<< HEAD
-    <style name="Theme.DawnNote" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
-=======
     <style name="Theme.DawnNote" parent="Theme.MaterialComponents.Light.NoActionBar">
->>>>>>> ac90f2c4bbe025bc4f89118beb4b281a9a9d7fa9
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
