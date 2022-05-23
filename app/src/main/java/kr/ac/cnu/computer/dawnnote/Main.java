@@ -18,7 +18,7 @@ public class Main extends AppCompatActivity {
         Handler handler = new Handler();
         handler.postDelayed(new Runnable(){
             public void run (){
-                Intent intent = new Intent(getApplicationContext(), folderlist.class);
+                Intent intent = new Intent(getApplicationContext(), folder_list.class);
                 startActivity(intent);
                 finish();
             }

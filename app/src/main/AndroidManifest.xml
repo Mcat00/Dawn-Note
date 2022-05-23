@@ -16,7 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".folderlist"/>
+        <activity android:name=".folder_list"/>
         <activity android:name=".new_note"/>
         <activity android:name=".probability_tagnote_2"/>
         <activity android:name=".probability_tagnote_3"/>
