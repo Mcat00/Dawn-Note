@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="984dp"
+        android:background="@drawable/main_background">
+
+        <Button
+            android:id="@+id/search_01_back"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="121dp"
+            android:layout_height="68dp"
+            android:layout_marginTop="5dp"
+            android:drawableEnd="@drawable/tag_toggle"
+            app:backgroundTint="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/javatext"
+            android:text="Note"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toStartOf="@+id/search_01_back"
+            app:layout_constraintHorizontal_bias="0.9"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:fontFamily="@font/javatext"
+            android:text="Tag"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toEndOf="@+id/search_01_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="255dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/javatext"
+            android:text="@string/DawnNote"
+            android:textColor="#FFFFFF"
+            android:textSize="40sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.018" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="22dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView1"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/moon" />
+
+        <Button
+            android:id="@+id/search_00_search"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="50dp"
+            android:layout_height="54dp"
+            android:drawableBottom="@drawable/search_item"
+            app:backgroundTint="@color/white"
+            app:iconTint="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.97"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.017"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+        <ScrollView
+            android:id="@+id/scrollView3"
+            android:layout_width="589dp"
+            android:layout_height="810dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="166dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/tagItem10_Button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:drawableTop="@drawable/tag_list_ds_03"
+                    android:text="자료구조 07, 08"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white"
+                    app:iconTint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.03"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tagItem09_Button"
+                    app:rippleColor="#9C27B0" />
+
+                <Button
+                    android:id="@+id/tagItem06_Button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:drawableTop="@drawable/tag_list_pb_03"
+                    android:text="확률 및 통계 3"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white"
+                    app:iconTint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tagItem05_Button"
+                    app:layout_constraintTop_toBottomOf="@+id/tagItem03_Button"
+                    app:rippleColor="#9C27B0" />
+
+                <Button
+                    android:id="@+id/tagItem05_Button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:drawableTop="@drawable/tag_list_pb_02"
+                    android:text="확률 및 통계 2"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white"
+                    app:iconTint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tagItem02_Button"
+                    app:rippleColor="#9C27B0" />
+
+                <Button
+                    android:id="@+id/tagItem04_Button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:drawableTop="@drawable/tag_list_pb_01"
+                    android:text="확률 및 통계 1"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white"
+                    app:iconTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/tagItem05_Button"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tagItem01_Button"
+                    app:rippleColor="#9C27B0" />
+
+                <Button
+                    android:id="@+id/tagItem03_Button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/search_01_note_item_03"
+                    android:text="C언어 03"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white"
+                    app:iconTint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tagItem02_Button"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:rippleColor="#9C27B0" />
+
+                <Button
+                    android:id="@+id/tagItem02_Button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableTop="@drawable/search_01_note_item_02"
+                    android:text="C언어 02"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white"
+                    app:iconTint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:rippleColor="#9C27B0" />
+
+                <Button
+                    android:id="@+id/tagItem01_Button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="9dp"
+                    android:layout_marginRight="9dp"
+                    android:drawableTop="@drawable/search_01_note_item_01"
+                    android:text="C언어 01"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white"
+                    app:iconTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/tagItem02_Button"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:rippleColor="#9C27B0" />
+
+                <Button
+                    android:id="@+id/tagItem07_Button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:drawableTop="@drawable/tag_list_ds_03"
+                    android:text="자료구조 05, 06"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white"
+                    app:iconTint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/tagItem08_Button"
+                    app:layout_constraintTop_toBottomOf="@+id/tagItem06_Button"
+                    app:rippleColor="#9C27B0" />
+
+                <Button
+                    android:id="@+id/tagItem08_Button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:drawableTop="@drawable/tag_list_ds_02"
+                    android:text="자료구조 04"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white"
+                    app:iconTint="@color/white"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.501"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tagItem05_Button"
+                    app:rippleColor="#9C27B0" />
+
+                <Button
+                    android:id="@+id/tagItem09_Button"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:drawableTop="@drawable/tag_list_ds_01"
+                    android:text="자료구조 정리"
+                    android:textColor="@color/white"
+                    app:backgroundTint="@color/white"
+                    app:iconTint="@color/white"
+                    app:layout_constraintEnd_toStartOf="@+id/tagItem08_Button"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tagItem04_Button"
+                    app:rippleColor="#9C27B0" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

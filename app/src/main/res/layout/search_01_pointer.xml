@@ -49,7 +49,7 @@
             app:rippleColor="#9C27B0" />
 
         <Button
-            android:id="@+id/noteItem01_Button"
+            android:id="@+id/tagItem01_Button"
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -94,7 +94,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/tagItem02_Button"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/noteItem01_Button"
+            app:layout_constraintTop_toBottomOf="@+id/tagItem01_Button"
             app:rippleColor="#9C27B0" />
 
         <Button
@@ -142,7 +142,7 @@
             app:layout_constraintEnd_toStartOf="@+id/textView2"
             app:layout_constraintHorizontal_bias="0.35"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/noteItem01_Button" />
+            app:layout_constraintTop_toBottomOf="@+id/tagItem01_Button" />
 
         <TextView
             android:id="@+id/textView2"
