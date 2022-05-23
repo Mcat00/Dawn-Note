@@ -1,11 +1,9 @@
 package kr.ac.cnu.computer.dawnnote;
 
-<<<<<<< HEAD
-=======
+
 import android.content.Intent;
 import android.view.View;
 import android.widget.Button;
->>>>>>> ac90f2c4bbe025bc4f89118beb4b281a9a9d7fa9
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -15,11 +13,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< HEAD
-        //setContentView(R.layout.activity_folderlist);
-
-    }
-=======
 
         Button button = (Button) findViewById(R.id.button);
         Button button2 = (Button) findViewById(R.id.button2);
@@ -59,6 +52,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
->>>>>>> ac90f2c4bbe025bc4f89118beb4b281a9a9d7fa9
 }
