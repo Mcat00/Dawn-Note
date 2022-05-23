@@ -24,7 +24,7 @@
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginTop="13dp" android:layout_marginLeft="13dp" android:layout_marginStart="13dp"/>
     <TextView
-            android:text="확률 및 통계 1"
+            android:text="확률 및 통계 01"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView2"
             android:textSize="30sp" android:textColor="@color/white"
