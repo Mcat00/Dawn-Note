@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="kr.ac.cnu.computer.dawnnote">
+          xmlns:tools="http://schemas.android.com/tools" package="kr.ac.cnu.computer.dawnnote">
 
     <application
             android:allowBackup="true"
@@ -9,15 +9,6 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.DawnNote">
-        <activity
-                android:name=".c_note03"
-                android:exported="true"/>
-        <activity
-                android:name=".c_note02"
-                android:exported="true"/>
-        <activity
-                android:name=".c_note01"
-                android:exported="true"/>
         <activity android:name=".Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
@@ -26,6 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".c_list"/>
+        <activity android:name=".c_note01"/>
+        <activity android:name=".c_note02"/>
+        <activity android:name=".c_note03"/>
         <activity android:name=".c_tagnote_1"/>
         <activity android:name=".c_tagnote_2"/>
         <activity android:name=".c_tagnote_3"/>

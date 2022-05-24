@@ -24,5 +24,65 @@ public class search_01_pointer extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button note_c_01 = (Button) findViewById(R.id.note_c_01);
+        note_c_01.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), c_note01.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        Button note_c_02 = (Button) findViewById(R.id.note_c_02);
+        note_c_02.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), c_note02.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        Button note_c_03 = (Button) findViewById(R.id.note_c_03);
+        note_c_03.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), c_note03.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        Button tag_c_01 = (Button) findViewById(R.id.tag_c_01);
+        tag_c_01.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), c_tagnote_1.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        Button tag_c_02 = (Button) findViewById(R.id.tag_c_02);
+        tag_c_02.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), c_tagnote_2.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        Button tag_c_03 = (Button) findViewById(R.id.tag_c_03);
+        tag_c_03.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(getApplicationContext(), c_tagnote_3.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 }
