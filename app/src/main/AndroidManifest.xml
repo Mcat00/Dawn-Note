@@ -21,8 +21,6 @@
         <activity android:name=".c_tagnote_2"/>
         <activity android:name=".c_tagnote_3"/>
         <activity android:name=".data_structure01"/>
-        <activity android:name=".data_structure02"/>
-        <activity android:name=".data_structure03"/>
         <activity android:name=".data_structure04"/>
         <activity android:name=".data_structure05"/>
         <activity android:name=".data_structure06"/>
