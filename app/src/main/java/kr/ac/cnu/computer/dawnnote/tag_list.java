@@ -1,26 +1,26 @@
 package kr.ac.cnu.computer.dawnnote;
 
 import android.content.Intent;
-import android.view.View;
-import android.widget.Button;
-import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class ds_tagnote_78 extends AppCompatActivity{
+import android.view.View;
+import android.widget.Button;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
+public class tag_list extends AppCompatActivity {
     @Override
-    protected void onCreate (Bundle savedInstanceState){
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.ds_tagnote_78);
+        setContentView(R.layout.tag_list);
 
-        Button back = (Button) findViewById(R.id.ds_7_back);
+        Button back = (Button) findViewById(R.id.tag_list_switch);
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(), tag_list.class);
+                Intent intent = new Intent(getApplicationContext(), folder_list.class);
                 startActivity(intent);
             }
         });
     }
-
 }

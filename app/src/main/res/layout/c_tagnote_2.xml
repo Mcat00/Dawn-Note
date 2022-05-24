@@ -28,7 +28,7 @@
             android:layout_marginTop="75dp"/>
     <Button
             android:layout_width="45dp"
-            android:layout_height="45dp" android:id="@+id/c_1_back"
+            android:layout_height="45dp" android:id="@+id/c_2_back"
             android:background="@drawable/back"
             style="?android:attr/borderlessButtonStyle"
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"

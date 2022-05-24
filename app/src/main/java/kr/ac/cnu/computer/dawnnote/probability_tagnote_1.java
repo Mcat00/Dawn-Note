@@ -17,7 +17,7 @@ public class probability_tagnote_1 extends AppCompatActivity{
         back.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(), Main.class);
+                Intent intent = new Intent(getApplicationContext(), tag_list.class);
                 startActivity(intent);
             }
         });
