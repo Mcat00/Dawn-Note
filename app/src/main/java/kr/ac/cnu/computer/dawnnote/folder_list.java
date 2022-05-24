@@ -19,6 +19,8 @@ public class folder_list extends AppCompatActivity{
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), tag_list.class);
                 startActivity(intent);
+                overridePendingTransition(0,0);
+                finish();
             }
         });
 

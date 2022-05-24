@@ -20,6 +20,8 @@ public class tag_list extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), folder_list.class);
                 startActivity(intent);
+                overridePendingTransition(0,0);
+                finish();
             }
         });
 
