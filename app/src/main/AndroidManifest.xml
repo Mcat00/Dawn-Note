@@ -41,6 +41,7 @@
         <activity android:name=".probability_tagnote_3"/>
         <activity android:name=".search_00"/>
         <activity android:name=".search_01_pointer"/>
+        <activity android:name=".tag_list"/>
     </application>
 
 </manifest>
