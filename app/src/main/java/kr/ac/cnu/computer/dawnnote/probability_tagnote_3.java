@@ -19,6 +19,7 @@ public class probability_tagnote_3 extends AppCompatActivity{
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), tag_list.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

@@ -19,6 +19,7 @@ public class c_note03 extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), c_list.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

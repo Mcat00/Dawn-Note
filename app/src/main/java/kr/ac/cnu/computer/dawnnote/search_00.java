@@ -29,6 +29,7 @@ public class search_00 extends AppCompatActivity{
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), folder_list.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

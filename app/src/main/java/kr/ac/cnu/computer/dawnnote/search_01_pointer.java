@@ -21,6 +21,7 @@ public class search_01_pointer extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), search_00.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

@@ -19,6 +19,7 @@ public class new_note extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), folder_list.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

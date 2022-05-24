@@ -19,6 +19,7 @@ public class data_structure01 extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), ds_list.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

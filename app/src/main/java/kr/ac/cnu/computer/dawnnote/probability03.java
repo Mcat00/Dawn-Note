@@ -19,6 +19,7 @@ public class probability03 extends AppCompatActivity {
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), probability_list.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
