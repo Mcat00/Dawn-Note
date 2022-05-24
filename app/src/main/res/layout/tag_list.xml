@@ -100,13 +100,15 @@
         <ScrollView
                 android:id="@+id/scrollView3"
                 android:layout_width="599dp"
-                android:layout_height="800dp"
+                android:layout_height="740dp"
                 android:overScrollMode="never"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 tools:ignore="MissingConstraints"
                 app:layout_constraintBottom_toBottomOf="parent"
-                android:layout_marginBottom="24dp">
+                android:layout_marginBottom="24dp"
+                app:layout_constraintTop_toBottomOf="@+id/tag_list_switch"
+                app:layout_constraintVertical_bias="0.0">
 
             <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
