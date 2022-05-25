@@ -19,6 +19,7 @@ public class ds_list extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), tag_list.class);
+                overridePendingTransition(0,0);
                 startActivity(intent);
             }
         });

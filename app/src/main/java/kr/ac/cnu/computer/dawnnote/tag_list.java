@@ -5,6 +5,7 @@ import android.os.Bundle;
 
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -14,8 +15,8 @@ public class tag_list extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.tag_list);
 
-        Button back = (Button) findViewById(R.id.tag_list_switch);
-        back.setOnClickListener(new View.OnClickListener(){
+        Button folder_switch = (Button) findViewById(R.id.tag_list_switch);
+        folder_switch.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent intent = new Intent(getApplicationContext(), folder_list.class);
@@ -106,7 +107,7 @@ public class tag_list extends AppCompatActivity {
             }
         });
 
-        Button search = (Button) findViewById(R.id.tag_list_search);
+        ImageButton search = findViewById(R.id.tag_list_search);
         search.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){

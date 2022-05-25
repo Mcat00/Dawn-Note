@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/noteback">
+        android:background="@drawable/main_background">
 
     <TextView
             android:text=".../ 중간고사/C언어"
@@ -49,7 +49,7 @@
             app:layout_constraintTop_toBottomOf="@+id/note_c_01"
             app:layout_constraintStart_toStartOf="@+id/note_c_01"
             app:layout_constraintEnd_toEndOf="@+id/note_c_01"
-    />
+            android:layout_marginTop="8dp"/>
     <TextView
             android:text="C언어 02"
             android:fontFamily="@font/korean"
@@ -59,7 +59,7 @@
             android:layout_height="wrap_content" android:id="@+id/name2"
             app:layout_constraintTop_toBottomOf="@+id/note_c_02"
             app:layout_constraintStart_toStartOf="@+id/note_c_02"
-            app:layout_constraintEnd_toEndOf="@+id/note_c_02"/>
+            app:layout_constraintEnd_toEndOf="@+id/note_c_02" android:layout_marginTop="8dp"/>
     <TextView
             android:text="C언어 03"
             android:fontFamily="@font/korean"
@@ -69,7 +69,7 @@
             android:layout_height="wrap_content" android:id="@+id/name3"
             app:layout_constraintTop_toBottomOf="@+id/note_c_03"
             app:layout_constraintStart_toStartOf="@+id/note_c_03"
-            app:layout_constraintEnd_toEndOf="@+id/note_c_03"/>
+            app:layout_constraintEnd_toEndOf="@+id/note_c_03" android:layout_marginTop="8dp"/>
     <ImageView
             android:layout_width="50dp"
             android:layout_height="49dp"

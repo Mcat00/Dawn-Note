@@ -5,7 +5,7 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/noteback">
+        android:background="@drawable/main_background">
 
     <ImageButton
             android:layout_width="150dp"
@@ -27,7 +27,7 @@
             app:layout_constraintEnd_toEndOf="@+id/note_ds_01"
             app:layout_constraintHorizontal_bias="0.507"
             app:layout_constraintTop_toBottomOf="@+id/note_ds_07"
-    />
+            android:layout_marginTop="8dp"/>
     <TextView
             android:id="@+id/textView1"
             android:layout_width="255dp"
@@ -61,7 +61,7 @@
             app:layout_constraintTop_toBottomOf="@+id/note_ds_01"
             app:layout_constraintStart_toStartOf="@+id/note_ds_01"
             app:layout_constraintEnd_toEndOf="@+id/note_ds_01"
-    />
+            android:layout_marginTop="8dp"/>
     <TextView
             android:text="자료구조 04"
             android:fontFamily="@font/korean"
@@ -71,7 +71,7 @@
             android:layout_height="wrap_content" android:id="@+id/name2"
             app:layout_constraintTop_toBottomOf="@+id/note_ds_04"
             app:layout_constraintStart_toStartOf="@+id/note_ds_04"
-            app:layout_constraintEnd_toEndOf="@+id/note_ds_04"/>
+            app:layout_constraintEnd_toEndOf="@+id/note_ds_04" android:layout_marginTop="8dp"/>
     <TextView
             android:text="자료구조 05, 06"
             android:fontFamily="@font/korean"
@@ -81,7 +81,7 @@
             android:layout_height="wrap_content" android:id="@+id/name3"
             app:layout_constraintTop_toBottomOf="@+id/note_ds_05"
             app:layout_constraintStart_toStartOf="@+id/note_ds_05"
-            app:layout_constraintEnd_toEndOf="@+id/note_ds_05"/>
+            app:layout_constraintEnd_toEndOf="@+id/note_ds_05" android:layout_marginTop="8dp"/>
     <ImageView
             android:layout_width="50dp"
             android:layout_height="49dp"
