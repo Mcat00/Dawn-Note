@@ -37,7 +37,7 @@
     <ImageView
             android:layout_width="118dp"
             android:layout_height="103dp"
-            app:srcCompat="@drawable/moon"
+            app:srcCompat="@drawable/main_moon"
             android:id="@+id/imageView"
             android:layout_gravity="center"
             app:layout_constraintStart_toStartOf="parent"
