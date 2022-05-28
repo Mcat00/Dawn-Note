@@ -1,7 +1,12 @@
 package kr.ac.cnu.computer.dawnnote;
 
+import android.app.ActionBar;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.view.Gravity;
 import android.view.View;
+import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
@@ -87,6 +92,8 @@ public class folder_list extends AppCompatActivity{
             @Override
             public void onClick(View v) {
                 customDialog = new popup(folder_list.this);
+                customDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+
                 customDialog.show();
             }
         });
