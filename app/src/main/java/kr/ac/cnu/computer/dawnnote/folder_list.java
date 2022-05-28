@@ -6,10 +6,7 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.os.Bundle;
 import android.animation.ObjectAnimator;
-import android.annotation.SuppressLint;
-import android.view.View;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 public class folder_list extends AppCompatActivity{
@@ -23,8 +20,6 @@ public class folder_list extends AppCompatActivity{
     @Override
     protected void onCreate (Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.folder_list);
-
         setContentView(R.layout.folder_list);
 
         fabMain = findViewById(R.id.imageButton2);

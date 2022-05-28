@@ -118,15 +118,53 @@
             app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintHorizontal_bias="0.348" app:layout_constraintVertical_bias="0.187"
             android:layout_marginRight="40dp" android:layout_marginEnd="40dp"/>
-    <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/pinkplus_resize"
-            android:id="@+id/imageButton2"
-            android:background="@drawable/round"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintHorizontal_bias="0.932" app:layout_constraintVertical_bias="0.93"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/folder"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/add_folder_button"
+        app:backgroundTint="#00523131"
+        app:layout_constraintBottom_toBottomOf="@id/imageButton2"
+        app:layout_constraintEnd_toEndOf="@id/imageButton2"
+        app:layout_constraintStart_toStartOf="@id/imageButton2"
+        app:layout_constraintTop_toTopOf="@id/imageButton2"
+        app:maxImageSize="55dp"
+        app:rippleColor="#2196F3" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/note"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/add_note_button"
+        app:backgroundTint="#00FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@id/imageButton2"
+        app:layout_constraintEnd_toEndOf="@id/imageButton2"
+        app:layout_constraintStart_toStartOf="@id/imageButton2"
+        app:layout_constraintTop_toTopOf="@id/imageButton2"
+        app:maxImageSize="55dp"
+        app:rippleColor="#03A9F4" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginBottom="204dp"
+        android:src="@drawable/add_button"
+        app:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:maxImageSize="60dp"
+        app:rippleColor="#9C27B0"/>
+
     <TextView
             android:text=".../ 중간고사/확률 및 통계"
             android:fontFamily="@font/korean" android:layout_width="wrap_content"
