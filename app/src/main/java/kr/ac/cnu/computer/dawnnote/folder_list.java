@@ -1,12 +1,9 @@
 package kr.ac.cnu.computer.dawnnote;
 
-import android.app.ActionBar;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.view.Gravity;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
@@ -88,20 +85,26 @@ public class folder_list extends AppCompatActivity{
         });
         // 노트 플로팅 버튼 클릭
         fabnote.setOnClickListener(new View.OnClickListener() {
-            popup customDialog;
+            popup noteDialog;
             @Override
             public void onClick(View v) {
-                customDialog = new popup(folder_list.this);
-                customDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
-
-                customDialog.show();
+                noteDialog = new popup(folder_list.this);
+                noteDialog.setContentView(R.layout.set_note);
+                noteDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                noteDialog.show();
+                showSetup(noteDialog);
             }
         });
 
         // 폴더 플로팅 버튼 클릭
         fabfloder.setOnClickListener(new View.OnClickListener() {
+            popup folderDialog;
             @Override
             public void onClick(View v) {
+                folderDialog = new popup(folder_list.this);
+                folderDialog.setContentView(R.layout.set_folder);
+                folderDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                close(folderDialog);
             }
         });
     }
@@ -124,6 +127,30 @@ public class folder_list extends AppCompatActivity{
         }
         // 플로팅 버튼 상태 변경
         fabMain_status = !fabMain_status;
+    }
+    public void showSetup(popup Dialog){
+        Button confirm = Dialog.findViewById(R.id.note_confirm);
+        confirm.setOnClickListener(new View.OnClickListener() {
+            popup setupDialog;
+            @Override
+            public void onClick(View v) {
+                Dialog.dismiss();
+                setupDialog = new popup(folder_list.this);
+                setupDialog.setContentView(R.layout.set_popup);
+                setupDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                setupDialog.show();
+            }
+        });
+    }
+    public void close(popup Dialog){
+        Dialog.show();
+        Button confirm = Dialog.findViewById(R.id.folder_confirm);
+        confirm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Dialog.dismiss();
+            }
+        });
     }
 
 }
