@@ -81,14 +81,17 @@ public class folder_list extends AppCompatActivity{
 
             }
         });
-        // 폴더 플로팅 버튼 클릭
+        // 노트 플로팅 버튼 클릭
         fabnote.setOnClickListener(new View.OnClickListener() {
+            popup customDialog;
             @Override
             public void onClick(View v) {
+                customDialog = new popup(folder_list.this);
+                customDialog.show();
             }
         });
 
-        // 노트 플로팅 버튼 클릭
+        // 폴더 플로팅 버튼 클릭
         fabfloder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -115,4 +118,5 @@ public class folder_list extends AppCompatActivity{
         // 플로팅 버튼 상태 변경
         fabMain_status = !fabMain_status;
     }
+
 }
