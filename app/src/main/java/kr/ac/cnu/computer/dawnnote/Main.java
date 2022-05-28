@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class Main extends AppCompatActivity {
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -14,6 +13,7 @@ public class Main extends AppCompatActivity {
 
         Loadingstart();
     }
+
     public void Loadingstart(){
         Handler handler = new Handler();
         handler.postDelayed(new Runnable(){
@@ -26,3 +26,7 @@ public class Main extends AppCompatActivity {
 
     }
 }
+
+
+
+
