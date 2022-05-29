@@ -44,14 +44,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.018" />
     <TextView
-            android:text="@string/copyright"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" android:id="@+id/textView3"
-            android:layout_gravity="center" app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
-            android:textColor="#FFFFFF"
-    />
-    <TextView
             android:text="자료구조 정리"
             android:fontFamily="@font/korean"
             android:layout_gravity="center"
